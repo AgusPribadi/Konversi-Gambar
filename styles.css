@@ -1,5 +1,6 @@
 body {
     background-color: #f8f9fa;
+    font-family: "Poppins", sans-serif;
 }
 
 .container {
@@ -12,10 +13,17 @@ h1 {
     text-align: center;
     margin-bottom: 40px;
     color: #343a40;
+    font-weight: 600;
 }
 
 .form-group {
     margin-bottom: 30px;
+}
+
+.form-group label,
+.btn-convert,
+.result {
+    font-family: "Poppins", sans-serif;
 }
 
 .btn-convert {
