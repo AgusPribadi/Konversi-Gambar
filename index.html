@@ -21,7 +21,13 @@
                 </select>
             </div>
             <button class="btn btn-convert" onclick="convertImage()">Konversi</button>
-            <div id="result" class="result mt-4"></div>
+            <div id="result" class="result mt-4">
+                <div class="loading-overlay">
+                    <div class="spinner-border text-primary" role="status">
+                        <span class="sr-only">Loading...</span>
+                    </div>
+                </div>
+            </div>
         </div>
         <script src="app.js"></script>
     </body>
