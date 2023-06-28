@@ -82,3 +82,19 @@ h1 {
     max-height: 300px;
     border-radius: 4px;
 }
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f8f9fa;
+    text-align: center;
+    font-size: 14px;
+    color: #888;
+    padding: 20px 0;
+}
+
+.footer a {
+    color: #888888;
+}
