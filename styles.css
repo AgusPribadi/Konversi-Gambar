@@ -1,3 +1,28 @@
+/* Tampilan untuk layar dengan lebar kurang dari atau sama dengan 576px */
+@media (max-width: 576px) {
+  .container {
+    max-width: 100%;
+    padding: 20px;
+  }
+}
+
+/* Tampilan untuk layar dengan lebar antara 577px dan 992px */
+@media (min-width: 577px) and (max-width: 992px) {
+  .container {
+    max-width: 80%;
+    padding: 30px;
+  }
+}
+
+/* Tampilan untuk layar dengan lebar lebih dari 992px */
+@media (min-width: 993px) {
+  .container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding-top: 50px;
+  }
+}
+
 body {
     background-color: #f8f9fa;
     font-family: "Poppins", sans-serif;
