@@ -45,16 +45,6 @@ h1 {
     font-weight: 600;
 }
 
-.form-group {
-    margin-bottom: 30px;
-}
-
-.form-group label,
-.btn-convert,
-.result {
-    font-family: "Poppins", sans-serif;
-}
-
 .btn-convert {
     display: block;
     width: 100%;
@@ -122,8 +112,4 @@ h1 {
     font-size: 14px;
     color: #888;
     padding: 20px 0;
-}
-
-.footer a {
-    color: #888888;
 }
