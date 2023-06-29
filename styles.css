@@ -1,26 +1,26 @@
 /* Tampilan untuk layar dengan lebar kurang dari atau sama dengan 576px */
 @media (max-width: 576px) {
-  .container {
-    max-width: 100%;
-    padding: 20px;
-  }
+    .container {
+        max-width: 100%;
+        padding: 20px;
+    }
 }
 
 /* Tampilan untuk layar dengan lebar antara 577px dan 992px */
 @media (min-width: 577px) and (max-width: 992px) {
-  .container {
-    max-width: 80%;
-    padding: 30px;
-  }
+    .container {
+        max-width: 80%;
+        padding: 30px;
+    }
 }
 
 /* Tampilan untuk layar dengan lebar lebih dari 992px */
 @media (min-width: 993px) {
-  .container {
-    max-width: 500px;
-    margin: 0 auto;
-    padding-top: 50px;
-  }
+    .container {
+        max-width: 500px;
+        margin: 0 auto;
+        padding-top: 50px;
+    }
 }
 
 body {
@@ -32,6 +32,14 @@ body {
     max-width: 500px;
     margin: 0 auto;
     padding-top: 50px;
+
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-top: 50px;
 }
 
 h1 {
