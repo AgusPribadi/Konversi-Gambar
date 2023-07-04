@@ -4,29 +4,34 @@
         <title>Konversi Gambar</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
-        <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" />
         <link rel="stylesheet" href="styles.css" />
     </head>
     <body>
         <div class="container">
-            <h1>Konversi Gambar</h1>
-            <div class="form-group">
-                <label for="image">Pilih gambar:</label>
-                <input type="file" class="form-control-file" id="image" accept="image/*" />
-            </div>
-            <div class="form-group">
-                <label for="format">Pilih format output:</label>
-                <select id="format" class="form-control">
-                    <option value="jpeg">JPEG</option>
-                    <option value="png">PNG</option>
-                    <option value="gif">GIF</option>
-                </select>
-            </div>
-            <button class="btn btn-convert" onclick="convertImage()">Konversi</button>
-            <div id="result" class="result mt-4">
-                <div class="loading-overlay">
-                    <div class="spinner-border text-primary" role="status">
-                        <span class="sr-only">Loading...</span>
+            <div class="card">
+                <h1 class="card-header">Konversi Gambar</h1>
+                <div class="card-body">
+                    <div class="form-group">
+                        <label for="image">Pilih gambar:</label>
+                        <input type="file" class="form-control-file" id="image" accept="image/*" />
+                    </div>
+                    <div class="form-group">
+                        <label for="format">Pilih format output:</label>
+                        <select id="format" class="form-control">
+                            <option value="jpeg">JPEG</option>
+                            <option value="png">PNG</option>
+                            <option value="gif">GIF</option>
+                        </select>
+                    </div>
+
+                    <button class="btn btn-convert" onclick="convertImage()">Konversi</button>
+                    <h6>Klik dua kali untuk preview gambar</h6>
+                </div>
+                <div id="result" class="card-body result">
+                    <div class="loading-overlay">
+                        <div class="spinner-border text-primary" role="status">
+                            <span class="sr-only">Loading...</span>
+                        </div>
                     </div>
                 </div>
             </div>
